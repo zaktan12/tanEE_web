@@ -12,6 +12,7 @@ var $form = $("#imageUploadForm"),
     $file = $("#file"),
     $uploadedImg = $("#uploadedImg"),
     $helpText = $("#helpText");
+    // $download-file = $("#download-file")
 
 $file.on("change", function() {
   readURL(this);
@@ -25,3 +26,4 @@ $helpText.on('webkitAnimationEnd MSAnimationEnd oAnimationEnd animationend', fun
     $file.val('');  $form.removeClass('loading').removeClass('loaded');
   }, 5000);
 });
+$

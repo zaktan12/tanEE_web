@@ -182,19 +182,23 @@ body {
 .imageUploadForm.loading.loaded .helpText:before {
   content: 'Upload Complete!';
 }
-.imageUploadForm.loading.loaded .helpText:after {
-  display: block;
-  opacity: 0;
-  font-size: 0;
-  line-height: 100px;
-  -moz-animation: fadeIn 0.4s forwards;
-  -webkit-animation: fadeIn 0.4s forwards;
-  animation: fadeIn 0.4s forwards;
-  content: '\f058';
-  color: white;
-  margin-top: 2%;
-  border-width: 0;
+
+.imageUploadForm.loading.loaded .helpText .download-file {
+  content: 'Download my picture!';
 }
+/*.imageUploadForm.loading.loaded .helpText:after {*/
+/*  display: block;*/
+/*  opacity: 0;*/
+/*  font-size: 0;*/
+/*  line-height: 100px;*/
+/*  -moz-animation: fadeIn 0.4s forwards;*/
+/*  -webkit-animation: fadeIn 0.4s forwards;*/
+/*  animation: fadeIn 0.4s forwards;*/
+/*  content: '\f058';*/
+/*  color: white;*/
+/*  margin-top: 2%;*/
+/*  border-width: 0;*/
+/*}*/
 
 @-moz-keyframes toTop {
   to {
